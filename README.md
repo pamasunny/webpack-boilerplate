@@ -1,17 +1,17 @@
-![Webpack boilerplate]("./logo.svg")
+![Webpack boilerplate](logo.svg)
 
 ## Optimized webpack boilerplate
 
 the webpack boilerplate configured differently for development and production environment for performance and min bundle size with bootstrap included.
 
-####Included
-*babel
-*dev server
-*bootstrap
-*post css
-*sass
-*terser for minification of js
-\*content hashing
+#### Included
+* babel
+* dev server
+* bootstrap
+* post css
+* sass
+* terser for minification of js
+* content hashing
 
 ```javascript
 npm start
