@@ -26,14 +26,25 @@ module.exports = merge(config, {
 				{
 					loader: 'css-loader',
 					options: {
-						importLoaders : 1,
+						sourceMap: true,
+						modules: true,
+						
 					}
 				},
 				{
 					loader: 'postcss-loader',
+					options: {
+						sourceMap: true,
+						consfig: {
+							path: 'postcss.config.js'
+						}
+					}
 				},
 				{
-					loader : 'sass-loader'
+					loader : 'sass-loader',
+					options: {
+						sourceMap: true
+					}
 				}
 				]
 			}
