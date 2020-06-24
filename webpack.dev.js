@@ -10,6 +10,9 @@ module.exports = merge(config, {
 		path: path.resolve(__dirname,"dist")
 
 	},
+	optimization: {
+		usedExports: true,
+	},
 	plugins: [
 	new HtmlWebpackPlugin({
 		template: "./src/index.html"
